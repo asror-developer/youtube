@@ -27,7 +27,7 @@ const Contact = () => {
             <span className='contact-span'>34k views  ·  5 months ago</span>
         </div>
         <div className='contact-name'>
-          <img className='contact-stop' src={page} alt=" rasim" />
+          <img className='contact-stop' src={page  } alt=" rasim" />
           <p className='contact-text'>Dude You Re Getting A Telescope</p>
             <span className='contact-span'>34k views  ·  5 months ago</span>
         </div>
