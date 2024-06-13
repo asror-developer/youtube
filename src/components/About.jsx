@@ -19,8 +19,8 @@ const About = () => {
               <p className='about-text'>Dollie Blair</p>
             </div>
             <div className='about-img'>
-              <img src={left} alt="rasm" width={28} height={28} />
-              <img src={right} alt="rasm" width={28} height={28} />
+              <img className='about-image' src={left} alt="rasm" width={28} height={28} />
+              <img className='about-image' src={right} alt="rasm" width={28} height={28} />
             </div>
           </div>
           <div className='about-contact'>

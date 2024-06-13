@@ -16,6 +16,7 @@ import image3 from '../assets/image/image3.svg'
 import image4 from '../assets/image/image4.svg'
 import image5 from '../assets/image/image5.svg'
 import image6 from '../assets/image/image6.svg'
+import { Link } from 'react-router-dom'
 
 export default function Hero() {
   return (
@@ -24,43 +25,43 @@ export default function Hero() {
         <div className='hero-container'>
           
           <div className='hero-box'>
-            <a className='hero-link2' href="">
-              <img src={home} alt="rasim" width={20} height={20} />Home</a>
-            <a className='hero-link' href="">
-              <img src={tredng} alt="rasim" width={20} height={20} />Trending</a>
-            <a className='hero-link1' href="">
-              <img src={printer} alt="rasim" width={20} height={20} />Subscriptions</a>
-            <a className='hero-link' href="">
-              <img src={fayl} alt="rasim" width={20} height={20} />Library</a>
-            <a className='hero-link' href="">
-              <img src={history} alt="rasim" width={20} height={20} />History</a>
-            <a className='hero-link' href="">
-              <img src={soat} alt="rasim" width={20} height={20} />Watch later</a>
-            <a className='hero-link' href="">
-              <img src={yulduz} alt="rasim" width={20} height={20} />Favourites</a>
-            <a className='hero-link' href="">
-              <img src={love} alt="rasim" width={20} height={20} />Liked videos</a>
-            <a className='hero-link' href="">
-              <img src={musk} alt="rasim" width={20} height={20} />Music</a>
-            <a className='hero-link' href="">
-              <img src={games} alt="rasim" width={20} height={20} />Games</a>
-            <a className='hero-link' href="">
-              <img src={strelka} alt="rasim" width={20} height={20} />Show more</a>
+            <Link className='hero-link2' to="/">
+              <img src={home} alt="rasim" width={20} height={20} />Home</Link>
+            <Link className='hero-link' to="/trending">
+              <img src={tredng} alt="rasim" width={20} height={20} />Trending</Link>
+            <Link className='hero-link1' to="/Subscriptions">
+              <img src={printer} alt="rasim" width={20} height={20} />Subscriptions</Link>
+            <Link className='hero-link' to="/library">
+              <img src={fayl} alt="rasim" width={20} height={20} />Library</Link>
+            <Link className='hero-link' to="/History">
+              <img src={history} alt="rasim" width={20} height={20} />History</Link>
+            <Link className='hero-link' to="/Watchlater">
+              <img src={soat} alt="rasim" width={20} height={20} />Watch later</Link>
+            <Link className='hero-link' to="/Favourites">
+              <img src={yulduz} alt="rasim" width={20} height={20} />Favourites</Link>
+            <Link className='hero-link' to="/Videoga">
+              <img src={love} alt="rasim" width={20} height={20} />Liked videos</Link>
+            <Link className='hero-link' to="/Music">
+              <img src={musk} alt="rasim" width={20} height={20} />Music</Link>
+            <Link className='hero-link' to="/Games">
+              <img src={games} alt="rasim" width={20} height={20} />Games</Link>
+            <Link className='hero-link' to="/SHowmore">
+              <img src={strelka} alt="rasim" width={20} height={20} />Show more</Link>
           </div>
           <div className='hero-name'>
             <p className='hero-text'>Subscriptions</p>
-            <a className='hero-link' href="">
-              <img src={image1} alt="rasim" width={20} height={20} />Gussie Singleton</a>
-              <a className='hero-link' href="">
-              <img src={image2} alt="rasim" width={20} height={20} />Nora Francis</a>
-              <a className='hero-link' href="">
-              <img src={image3} alt="rasim" width={20} height={20} />Belle Briggs</a>
-              <a className='hero-link' href="">
-              <img src={image4} alt="rasim" width={20} height={20} />Eunice Cortez</a>
-              <a className='hero-link' href="">
-              <img src={image5} alt="rasim" width={20} height={20} />Emma Hanson</a>
-              <a className='hero-link' href="">
-              <img src={image6} alt="rasim" width={20} height={20} />Leah Berry</a>
+            <Link className='hero-link' to="/trending">
+              <img src={image1} alt="rasim" width={20} height={20} />Gussie Singleton</Link>
+              <Link className='hero-link' to="/trending">
+              <img src={image2} alt="rasim" width={20} height={20} />Nora Francis</Link>
+              <Link className='hero-link' to="/trending">
+              <img src={image3} alt="rasim" width={20} height={20} />Belle Briggs</Link>
+              <Link className='hero-link' to="/trending">
+              <img src={image4} alt="rasim" width={20} height={20} />Eunice Cortez</Link>
+              <Link className='hero-link' to="/trending">
+              <img src={image5} alt="rasim" width={20} height={20} />Emma Hanson</Link>
+              <Link className='hero-link' to="/trending">
+              <img src={image6} alt="rasim" width={20} height={20} />Leah Berry</Link>
           </div>
         </div>
       </div>

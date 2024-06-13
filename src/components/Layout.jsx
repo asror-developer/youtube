@@ -7,7 +7,7 @@ import Footer from './Footer'
 const Layout = () => {
     return (
         <div className='stel-wrapper container'>
-            <Hero />
+            
             <div>
                 <About />
                  <Contact/>

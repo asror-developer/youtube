@@ -12,8 +12,8 @@ export default function Header() {
             <div className='container'>
                 <div className='header-container'>
                     <div className='header-box'>
-                        <img src={menu} alt="logo" width={20} height={17} />
-                        <img src={youtub} alt="logo" width={116} height={19} />
+                        <img className='header-pointer' src={menu} alt="logo" width={20} height={17} />
+                        <img className='header-pointer'  src={youtub} alt="logo" width={116} height={19} />
                     </div>
                     <div className='header-name'>
                         <input className='header-input' type="text" required placeholder='Search' />
