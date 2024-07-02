@@ -19,6 +19,7 @@ export default function Header() {
                         <input className='header-input' type="text" required placeholder='Search' />
                         <img className='header-image' src={shape} alt="rasim" width={18} height={18} />
                     </div>
+                    
                     <div className='header-img'>
                         <img src={video} alt="logo" width={27} height={24} />
                         <img src={asosiy} alt="logo" width={27} height={24} />
